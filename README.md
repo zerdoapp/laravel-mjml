@@ -1,5 +1,4 @@
 <div align="center">
-  <sup>
   <br />
   <br />
   <pre>composer require zerdo/laravel-mjml</pre>
@@ -45,3 +44,9 @@ class OrderNotification extends Notification implements ShouldQueue {
     }
 }
 ```
+
+###Usage for Lumen
+This package does work with Lumen but there is an extra step that you have to take.
+
+- Navigate to `bootstrap/app.php`.
+- Add the following line: `$app->configure('laravel-mjml');`
