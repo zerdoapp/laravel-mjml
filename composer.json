@@ -1,0 +1,22 @@
+{
+    "name": "zerdo/laravel-mjml",
+    "description": "A Laravel package that allows you to integrate with the MJML seamlessly.",
+    "authors": [
+        {
+            "name": "Connor",
+            "email": "connor@zerdo.app"
+        }
+    ],
+    "require": {
+        "illuminate/notifications": "^7.10",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "require-dev": {
+        "laravel/lumen-framework": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zerdo\\LaravelMJML\\": "src"
+        }
+    }
+}
